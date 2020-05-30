@@ -55,12 +55,9 @@ public class ProfileActivity extends AppCompatActivity  {
            // String personGivenName = acct.getGivenName();
             //String personFamilyName = acct.getFamilyName();
             String personEmail = acct.getEmail();
-           // String personId = acct.getId();
-         //   Uri personPhoto = acct.getPhotoUrl();
-
             textName.setText(personName);
             textEmail.setText(personEmail);
-           // textEmail.setText("Email:"+personEmail);
+
         }
 
 
